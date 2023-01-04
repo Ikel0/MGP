@@ -1,0 +1,381 @@
+
+body{
+    background-image: url(https://bitcoinist.com/wp-content/uploads/2018/03/as-sports-betting.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header {
+    background-color: #111;
+    margin: -1%;
+}
+header h1 {
+    color: rgb(17, 55, 136);
+    display: inline;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.) inset;
+    margin-bottom: 0;
+
+    
+}
+header img{
+    
+    
+    width: 8%;
+    margin: 0%;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+ ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+ ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:-5px;
+margin-left:0px;
+
+}
+
+ ul li:hover ul li {
+    float:none;
+    }
+  .container h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #111;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-indent: 20%;
+    
+  }
+  .container p{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #111;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    justify-content: center;
+    text-align: center;
+    text-decoration: dotted;
+  }
+
+  .q{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+    background-color: aliceblue;
+  }
+  
+form {
+  margin-top: 8px;
+}
+
+input[type="text"], input[type="email"], select {
+flex-grow: 1;
+margin: 4px;
+border: none;
+border-bottom: 1px solid #cacaca;
+padding: 5px;
+}
+
+input[type="text"]:invalid, input[type="email"]:invalid {
+border: none;
+box-shadow: none;
+border-bottom: 1px solid #ff5252;
+caret-color: #ff5252;
+padding: 5px;
+}
+
+
+
+
+/* main */
+main .box {
+overflow-x: scroll;
+flex-wrap: wrap;
+border:1px ;
+border-radius:25px;
+box-shadow: 0px 0px 15px #333;
+display: flex;
+flex-flow: wrap;
+}
+
+.box {
+background-color: rgb(248, 245, 245);
+margin: 2em;
+padding: 16px;
+box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+border:1px ;
+border-radius:25px;
+box-shadow: 0px 0px 15px #333;
+
+}
+
+.btn {
+background-color: #f5f5f5;
+box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+text-transform: uppercase;
+padding: 6px;
+border: none;
+margin: 0px 10px;
+}
+
+.btn.disabled {
+box-shadow: none;
+background-color: rgb(78, 37, 37);
+}
+
+.btn:hover {
+background-color: #188853;
+cursor: pointer;
+}
+
+.datatable {
+width: 100%;
+box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12) !important;
+}
+
+.datatable td, .datatable th {
+text-align: center;
+padding: 24px;
+}
+.datatable tr:not(:last-child) td, .datatable th {
+border-bottom: 1px solid #ccc;
+}
+
+
+
+
+/* Styles pour les questions et réponses */
+.quizz-question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.quizz-answers label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styles pour les boutons radio */
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+/* Styles pour le bouton de soumission */
+input[type="submit"] {
+  background-color: lightblue;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: skyblue;
+}
+
+
+/* Styles pour le quizz */
+form#quizz {
+  font-family: sans-serif;
+  text-align: left;
+  background-color: rgb(167, 209, 214);
+  border: 1px solid grey;
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px;
+  
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+form#quizz h1 {
+  font-size: 36px;
+  color: rgb(17, 55, 136);
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form#quizz .q {
+  margin-bottom: 20px;
+  border: 1px solid rgb(50, 114, 187);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form#quizz p {
+  margin: 0;
+}
+
+form#quizz input[type="radio"] {
+  margin-right: 10px;
+}
+
+form#quizz input[type="submit"] {
+  background-color: rgb(0, 60, 128);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form#quizz input[type="submit"]:hover {
+  background-color: lightgrey;
+}
+
+
+/* Styles pour le container */
+/* Styles pour le container */
+#propos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Styles pour les membres */
+.membre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  height: 430px;
+  border: 2px solid rgb(0, 51, 128);
+  margin: 150px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+  cursor: pointer;
+}
+
+.membre img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.membre h3 {
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 51, 128);
+  background-color: #111;
+}
+
+
+h2{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+
+    font-weight: bold;
+    color: rgb(119, 29, 29);
+    background-color: #111;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+ h4{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: rgb(0, 51, 128);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #111;
+    
+}
+video{
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  position: relative;
+    
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
