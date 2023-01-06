@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang ="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>MON GRAND PRONO </title>
+    <link rel= "stylesheet" href= "../styles\style1.css"> 
+     <script type="text/javascript" src="../js\quizz.js"></script>   
+    </head>
+       
+       <!-- Le corps-->
+       
+    <body>
+        
+        <header>
+            <img src="https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2019/09/09/b3c6b87c-478d-4744-bb1f-a6b2a938128c/mon-petit-gazon" alt="">
+            <h1>MON GRAND PRONO</h1>
+            <ul>
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="#">Pari sportif</a>
+                <ul>
+                    <li><a href="Foot.html">Foot</a></li>
+                    <li><a href="Basket.html">Basket</a></li>
+            
+                </ul></li>
+    
+                <li><a href="Ameliorer.html">Pour s'améliorer</a></li>
+                <li><a href="quizz.html">Quizz</a></li>
+                <li><a href="A propos.html">A Propos</a></li>
+              </ul> 
+        </header>
+        <div class="container">
+        </div>
+        <form name = "quizz" id = "quizz" align = "center">
+            <h1>---FOOTIX OU FOOTEUX ?---</h1>
+            <div class="q">
+                <p> 1)Quel est le seul club a remorté la ligue 1 sur la saison 2020/2021 ?</p>
+                <p><input type="radio" name="question1" value="Lille">A. Lille</p>
+                <p><input type="radio" name="question1" value="PSG">B. PSG</p>
+                <p><input type="radio" name="question1" value="OL">C. OL</p>
+            </div><br>
+
+            <div class="q">
+                <p>2)Que se passe-t-il lorsque l'arbitre adresse un carton rouge à un joueur ? </p>
+                <p><input type="radio" name="question2" value="a">A. Il doit sortir du terrain pendant 10 min</p>
+                <p><input type="radio" name="question2" value="b">B. Il peut sortir du terrain à n'importe quel moment</p>
+                <p><input type="radio" name="question2" value="c">C. Il est expulsé et son équipe joue à 10 pour le reste du match</p>
+            </div><br>
+
+            <div class="q">
+                <p>3)Combien de fois l'équipe de France a-t-elle remporté la Coupe du monde ? : </p>
+                <p><input type="radio" name="question3" value="1">A. 1</p>
+                <p><input type="radio" name="question3" value="2">B. 2</p>
+                <p><input type="radio" name="question3" value="3">C. 3</p>
+                <p><input type="radio" name="question3" value="4">D. 4</p>
+                <p><input type="radio" name="question3" value="5">E. 5</p>
+
+            </div><br>
+
+             <div class="q">
+                <p>4)De quels couleurs sont les cartons de l'arbitre ? : </p>
+                <p><input type="radio" name="question4" value="rj">A. Rouge et Jaune</p>
+                <p><input type="radio" name="question4" value="jv">B. Jaune et Vert</p>
+                <p><input type="radio" name="question4" value="vr">C. Vert et Rouge</p>
+                <p><input type="radio" name="question4" value="or">D. Orange et Rouge</p>
+            </div><br>
+            <div class="q">
+                <p>5)Qui a le plus de ballon d'or ? : </p>
+                <p><input type="radio" name="question5" value="cr">A. Cristiano Ronaldo</p>
+                <p><input type="radio" name="question5" value="lm">B. Lionel Messi</p>
+                <p><input type="radio" name="question5" value="dm">C. Diego Maradona</p>
+                <p><input type="radio" name="question5" value="p">D. Pelé</p>
+            </div><br>
+            <div class="q">
+                <p>6)Combien de joueur y-a-t-il sur le terrain lors d'un match de foot ? : </p>
+                <p><input type="radio" name="question6" value="10">A. 10</p>
+                <p><input type="radio" name="question6" value="20">B. 20</p>
+                <p><input type="radio" name="question6" value="11">C. 11</p>
+                <p><input type="radio" name="question6" value="22">D. 22</p>
+            </div><br>
+
+            <div class="q">
+                <p>7)Combien de temps dure un match de foot ? : </p>
+                <p><input type="radio" name="question7" value="6">A. 60 min</p>
+                <p><input type="radio" name="question7" value="7">B. 70 min</p>
+                <p><input type="radio" name="question7" value="9">C. 90 min</p>
+                <p><input type="radio" name="question7" value="8">D. 80 min</p>
+            </div><br>
+
+            <div class="q">
+                <p>8)Quel club a gagné le plus de Champions League ?  : </p>
+                <p><input type="radio" name="question8" value="b">A. Barcelone</p>
+                <p><input type="radio" name="question8" value="l">B. Liverpool</p>
+                <p><input type="radio" name="question8" value="bm">C. Bayern Munich</p>
+                <p><input type="radio" name="question8" value="rm">D. Real Madrid</p>
+            </div><br>
+             
+
+            <input type="button" name=""value=" Valider" onclick="check()">
+        </form>
+        <div class="q"><h1 id= "resultat" align = "center"></h1></div>
+        
+    <Footer>
+        <h4><a href="../html\A propos.html"> A propos de nous</a></h4>
+    </Footer>
+  </body>
+</html>
